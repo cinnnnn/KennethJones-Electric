@@ -1,9 +1,10 @@
+/*****Header*****/
 header {
-  height: 80px;
+  height: 110px;
   background-color: #026402;
 }
 
-header #logo {
+#logo {
   width: 200px;
   height: 200px;
   border-style: solid;
@@ -23,18 +24,50 @@ header h1 {
   top: 15px;
 }
 
-header nav {
+#links {
   position: absolute;
   right: 100px;
-  top: 27px;
+  top: 40px;
 }
 
-header nav i {
+#links i {
   color: #B1D0B1;
   font-size: 25px;
   padding-right: 20px;
 }
 
+#links i:visited {
+  color: #B1D0B1; 
+}
+
+#links i:hover {
+  color: white;
+}
+
+#pages {
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
+#pages li {
+  display: inline;
+  padding-right: 30px;
+  color: #B1D0B1;
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#pages li:visited {
+  color: #B1D0B1;
+}
+
+#pages li:hover {
+  color: white;
+}
+/**********/
+
+/*****Footer*****/
 footer {
   width: 100%;
   position: absolute;
@@ -50,4 +83,5 @@ footer p {
   position: relative;
   top: 12px;
 }
+/**********/
 
