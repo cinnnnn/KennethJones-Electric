@@ -2,6 +2,9 @@
 header {
   height: 110px;
   background-color: #026402;
+  border-bottom-style: solid;
+  border-bottom-color: #124412;
+  border-bottom-width: 5px;
 }
 
 #logo {
@@ -11,12 +14,14 @@ header {
   border-color: #026402;
   border-width: 10px;
   position: absolute;
-  top: 0px;
+  top: 6px;
   left: 20px;
+  border-style: solid;
+  outline: #124412 solid 5px;
 }
 
 header h1 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: white;
   text-align: center;
@@ -49,7 +54,7 @@ header a {
 }
 
 #pages {
-  width:300px;
+  width:305px;
   text-align: center;
   position: relative;
   top: 32px;
@@ -62,7 +67,7 @@ header a {
   margin: 0px 15px 0px 15px;
   color: #B1D0B1;
   font-size: 20px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #pages li:visited {
@@ -86,7 +91,7 @@ header a {
   width: 1090px;
   text-align: center;
   font-size: 40px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contact-info {
@@ -94,7 +99,7 @@ header a {
   position: relative;
   top: 140px;
   left: 20px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -119,7 +124,8 @@ header a {
 }
 
 .container p {
-  font-family: 'Merriweather Sans', sans-serif;}
+  font-family: 'Montserrat', sans-serif;;
+}
 
 /*****Footer*****/
 footer {
@@ -128,11 +134,14 @@ footer {
   bottom: 0px;
   background-color: #026402;
   height: 40px;
+  border-top-style: solid;
+  border-top-color: #124412;
+  border-top-width: 5px; 
 }
 
 footer p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: #B1D0B1;
   text-align: center;
   position: relative;
   top: 12px;
