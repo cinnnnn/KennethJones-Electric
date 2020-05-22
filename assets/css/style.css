@@ -58,6 +58,10 @@ header h1 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+#pages .contact-link {
+  padding: 0px;
+}
+
 #pages li:visited {
   color: #B1D0B1;
 }
@@ -65,7 +69,20 @@ header h1 {
 #pages li:hover {
   color: white;
 }
+
+#pages a {
+  text-decoration: none;
+}
 /**********/
+
+/*****Homepage*****/
+.container {
+  text-align: center;
+}
+
+.container #kenneth {
+  width: 300px;
+}
 
 /*****Footer*****/
 footer {
