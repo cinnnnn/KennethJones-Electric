@@ -1,0 +1,37 @@
+header {
+  height: 80px;
+  background-color: #026402;
+}
+
+header #logo {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: #026402;
+  border-width: 10px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+header h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  Position: relative;
+  top: 15px;
+}
+
+header nav {
+  position: absolute;
+  right: 100px;
+  top: 27px;
+}
+
+header nav i {
+  color: #B1D0B1;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
