@@ -24,6 +24,10 @@ header h1 {
   top: 15px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 #links {
   position: absolute;
   right: 100px;
