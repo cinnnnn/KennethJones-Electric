@@ -77,12 +77,22 @@ header h1 {
 
 /*****Homepage*****/
 .container {
+  width: 550px;
+  position: relative;
+  top: 100px;
+  left: 680px;
   text-align: center;
-}
+  }
 
 .container #kenneth {
   width: 300px;
+  height: 300px;
+  float: right;
+  padding-left: 15px;
 }
+
+.container p {
+  font-family: 'Merriweather Sans', sans-serif;}
 
 /*****Footer*****/
 footer {
