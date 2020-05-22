@@ -42,7 +42,7 @@ header a {
 #links i {
   color: #B1D0B1;
   font-size: 25px;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 #links i:visited {
