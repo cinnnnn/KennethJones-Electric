@@ -27,10 +27,16 @@ header h1 {
   text-align: center;
   Position: relative;
   top: 15px;
+  width: 580px;
+  margin: auto;
 }
 
-header a {
+header h1 a {
   text-decoration: none;
+}
+
+header h1 a:visited {
+  color: white;
 }
 
 #links {
