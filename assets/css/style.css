@@ -131,6 +131,18 @@ header h1 a:visited {
 .container p {
   font-family: 'Montserrat', sans-serif;;
 }
+/**********/
+
+/****Contact*****/
+#contact-form {
+  width: 550px;
+  margin: auto;
+  text-align: center;
+}
+
+#contact-form input {
+  width: 500px;
+}
 
 /*****Footer*****/
 footer {
@@ -158,6 +170,10 @@ footer a {
 
 footer a:visited {
   color: #B1D0B1;
+}
+
+footer a:hover {
+  color: white;
 }
 /**********/
 
